@@ -1,19 +1,61 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+name: Maria Sablina
+bio: 'duh'
 
-# Site settings
-title: Maria Sablina
-email: vyboina@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hire me!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sablina.github.io" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+# main text of home
+picture: 'assets/images/profile.jpg'
 
-# Build settings
+url: http://sablina.github.io
+# your url: http://USERNAME.github.io
+# if testing locally: http://localhost:3000
+
+permalink: /:title/
+
 markdown: kramdown
+highlighter: rouge
+
+analytics-google: 'UA-MYANALYTICS'
+disqus: mydisqus
+
+# if you don't have any of social below, comment the line
+facebook: myfacebook
+twitter: mytwitter
+instagram: myinstagram
+linkedin: mylinkedin
+youtube: myyoutube
+spotify: myspotify
+github: mygithub
+email: vyboina@gmail.com
+
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
+# if you don't need about or blog, comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+gems:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
+jekyll-mentions:
+    base_url: https://github.com
