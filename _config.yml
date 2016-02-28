@@ -1,8 +1,8 @@
 name: Maria Sablina
-bio: 'duh'
+# title_bio: bla
 
 # main text of home
-picture: 'assets/images/magic.gif'
+picture: 'assets/images/pic_sq.png'
 
 url: http://sablina.github.io
 # your url: http://USERNAME.github.io
@@ -16,6 +16,13 @@ highlighter: rouge
 
 analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
+facebook: myfacebook
+twitter: mytwitter
+instagram: myinstagram
+linkedin: mylinkedin
+youtube: myyoutube
+spotify: myspotify
+github: mygithub
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -34,17 +41,17 @@ exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.j
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need about or blog, comment them out below
-about: true
-blog: true
+# about: true
+# blog: true
 
 news: true
 research: true
 bio: true
 links: true
-cv: false
+# cv: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
