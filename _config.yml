@@ -2,11 +2,12 @@ name: Maria Sablina
 bio: 'duh'
 
 # main text of home
-picture: 'assets/images/RICKANDMORTY.jpg'
+picture: 'assets/images/magic.gif'
 
-url: http://sablina.github.io
+# url: http://sablina.github.io
 # your url: http://USERNAME.github.io
-# if testing locally: http://localhost:3000
+# if testing locally:
+url: http://localhost:3000
 
 permalink: /:title/
 
@@ -17,14 +18,14 @@ analytics-google: 'UA-MYANALYTICS'
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-email: vyboina@gmail.com
+# facebook: myfacebook
+# twitter: mytwitter
+# instagram: myinstagram
+# linkedin: mylinkedin
+# youtube: myyoutube
+# spotify: myspotify
+# github: mygithub
+email: maria.sablina@econ.lmu.de
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
@@ -38,6 +39,12 @@ projects: true
 # if you don't need about or blog, comment them out below
 about: true
 blog: true
+
+news: true
+research: true
+bio: true
+links: true
+cv: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
