@@ -4,10 +4,10 @@ bio: 'duh'
 # main text of home
 picture: 'assets/images/magic.gif'
 
-# url: http://sablina.github.io
+url: http://sablina.github.io
 # your url: http://USERNAME.github.io
 # if testing locally:
-url: http://localhost:3000
+# url: http://localhost:3000
 
 permalink: /:title/
 
